@@ -43,7 +43,7 @@ def generate_launch_description():
                     {"use_sim_time": use_sim_time},
                     {"topic_name": "map_amcl"},
                     {"yaml_filename": get_package_share_directory("planner_playground")
-                                      + "/config/map.yaml"},
+                                      + "/config/bug_wala_map.yaml"},
                 ],
                 output="screen",
             ),
